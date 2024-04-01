@@ -26,7 +26,7 @@ def main():
 
 def GetLanguage(text):
     try:
-        # Construct the JSON request body (a collection of documents, each with an ID and text)
+        # Construct the JSON request body (a collection of documents, each with an ID and text )
         jsonBody = {
             "documents":[
                 {"id": 1,
